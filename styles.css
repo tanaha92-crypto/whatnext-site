@@ -51,3 +51,18 @@ button{
   cursor:pointer;
 }
 button:active{transform: translateY(1px)}
+/* --- polish: remove seams / make layout feel solid --- */
+.wrap{ min-height: 100vh; }
+
+textarea{ outline: none; }
+textarea:focus{ border-color: rgba(232,238,246,.35); }
+
+button{ transition: transform .05s ease; }
+
+.card{
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
