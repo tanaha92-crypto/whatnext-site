@@ -9,14 +9,29 @@
 </head>
 <body>
   <main class="wrap">
-    <h1>Don’t know what to do next?</h1>
-    <p class="sub">Describe your situation and get clear, practical steps.</p>
+    <header class="hero">
+      <h1>Don’t know what to do next?</h1>
+      <p class="sub">
+        Describe your situation. Get calm, practical next steps.
+      </p>
+    </header>
 
-    <textarea id="situation" placeholder="Describe what’s happening..."></textarea>
+    <section class="card">
+      <label for="situation" class="label">Your situation</label>
+      <textarea
+        id="situation"
+        placeholder="Write freely. No names, no judgment. Just the facts and how you feel."
+      ></textarea>
 
-    <button id="go">Get guidance</button>
+      <div class="actions">
+        <button id="go">Get guidance</button>
+        <span class="hint">Takes ~10 seconds</span>
+      </div>
 
-    <p class="fine">Not legal or medical advice.</p>
+      <p class="fine">
+        Not legal or medical advice. No data is sent to a server at this stage.
+      </p>
+    </section>
   </main>
 
   <script src="app.js"></script>
